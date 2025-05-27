@@ -1,4 +1,4 @@
-def build() {
-  sh 'mvn clean install'
-  sh 'mvn test'
+def call() {
+   sh 'mvn clean install'
+   sh 'mvn test'
 }
